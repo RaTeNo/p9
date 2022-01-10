@@ -457,18 +457,13 @@
     .how_we_work .info
     {
         width: 100%;
-        max-width: calc(100% - 580px);
+        max-width: calc(100% - 630px);
     }
 
     .how_we_work .info .item .name
     {
         font-size: 22px;
         line-height: 26px;
-    }
-
-    .how_we_work .img
-    {
-        width: calc(50% + 450px);
     }
 
 
@@ -914,10 +909,6 @@
         align-items: flex-start;
     }
 
-    .product_info .cart_link .title
-    {
-        display: none;
-    }
 
     .product_info .head
     {

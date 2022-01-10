@@ -210,7 +210,8 @@
         text-decoration: none;
     }
     header .logo-mob .desc {
-        color: #789490;
+        color: #fff;
+        opacity: 1;
     }
 
     header .info
@@ -703,6 +704,9 @@
     .first_section .cont {
         flex-direction: column-reverse;
         padding: 0;
+    }
+    .first_section2.block:after {
+        left: -16%;
     }
 
 
@@ -1780,6 +1784,9 @@
     }
     .director_letter .info::after {
         display: none;
+    }
+    .product_info .title br {
+        display: block;
     }
     .director_letter .info {
         padding: 30px;

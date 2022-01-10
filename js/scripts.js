@@ -279,7 +279,7 @@ $(function(){
 
 	// Документы
 	var owl7 =$('.documents .slider').owlCarousel({
-		items: 4,
+		items: 8,
 		nav: false,
 		dots: false,
 		dotsEach : false,
@@ -300,7 +300,7 @@ $(function(){
 	            margin: 0
 	        },
 	        1024:{
-	            items: 5,
+	            items: 3,
 	            margin: 0
 	        },
 	        1200:{
