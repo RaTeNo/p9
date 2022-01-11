@@ -273,7 +273,6 @@ body.lock
     line-height: 39px;
     display: inline-block;
     min-width: 113px;
-    max-width: 200px;
     min-height: 39px;
     padding: 0 12px;
     vertical-align: top;
@@ -662,7 +661,8 @@ body.lock
     display: flex;
     align-items: center;
     min-width: 131px;
-    height: 39px;
+    min-height: 39px;
+    height: auto;
     margin-left: auto;
     cursor: pointer;
     transition: .2s linear;
@@ -2377,7 +2377,7 @@ aside > *:last-child
     background: var(--main_color4);
 }
 .main_slider2 .owl-dots {
-    right: calc(50% + 400px);
+    right: calc(17% + 400px);
     bottom: 100px;
     left: 0;
 }
@@ -2418,7 +2418,9 @@ aside > *:last-child
     position: relative;
     overflow: hidden;
 }
-
+.main_slider3 .link:hover {
+    background: var(--main_color4);
+}
 .main_slider .slide:before
 {
     position: absolute;
@@ -3760,6 +3762,7 @@ aside > *:last-child
     padding: 9.5px 7px;
     background: #fff;
     margin-bottom: 0;
+    margin-bottom: 20px;
 }
 .order_block .form input {
     height: 39px;
@@ -3773,6 +3776,9 @@ aside > *:last-child
     background: #FFFFFF;
     border: none;
     border-right: 2px solid #DCDCDC;
+}
+.order_block-checkbox {
+    display: none !important;
 }
 .order_block .form textarea {
     height: 39px;
@@ -3788,16 +3794,16 @@ aside > *:last-child
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
-    padding: 0px 36px;
+    padding: 0px 16px;
     min-width: 136px;
-    height: 68px;
+    min-height: 68px;
     margin-left: auto;
     cursor: pointer;
     transition: .2s linear;
-    vertical-align: top;
     letter-spacing: 0px;
     text-transform: inherit;
     border: none;
+    display: block;
 }
 .order_block .form .title {
     text-align: center;
@@ -3813,6 +3819,12 @@ aside > *:last-child
 }
 .order_block .form .block_head {
     margin-bottom: 41px;
+}
+.order_block .form input[type=checkbox] + label a {
+    color: #fff;
+}
+.form input[type=checkbox] + label {
+    color: var(--main_color4);
 }
 
 
@@ -6307,8 +6319,8 @@ button:disabled
 .image_tips .image
 {
     position: relative;
-    width: 844px;
-    height: 587px;
+    width: 740px;
+    height: auto;
 }
 .image_tips .block_head {
     max-width: 304px;
@@ -6316,10 +6328,8 @@ button:disabled
 }
 .image_tips .image img
 {
-    display: block;
-    width: calc(50% + 500px);
-    margin-right: -500px;
-
+    display: block;    
+    width: 100%;
 }
 
 .image_tips .image .item
@@ -7317,14 +7327,13 @@ footer .creator img {
     position: fixed;
     z-index: 1000;
     top: 20px;
-
     width: 70px;
 }
 
 .agree label a
 {
     color: var(--main_color2);
-
+    text-decoration: none;
     margin-left: 5px;
 }
 
@@ -7406,8 +7415,8 @@ footer .creator img {
 .file-chooser p
 {
     font-size: 18px;
-
-    padding-top: 1em;
+    color: red;
+    padding-bottom: 1em;
 }
 
 .file-chooser label
@@ -7530,12 +7539,8 @@ footer .creator img {
 {
     display: none;
 }
-
-.upload .error
-{
-    color: white;
-
-    background-color: #d65d38;
+.file-uploader .error {
+    border: none !important;
 }
 
 .upload  .file-uploader * svg
@@ -8091,7 +8096,6 @@ aside .submit .reset i:after
 .first_section .img.no_mask
 {
     top: 0;
-
     margin: 20px 0;
 }
 

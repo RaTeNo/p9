@@ -36,9 +36,6 @@
     .block .link
     {
         font-size: 14px;
-        line-height: 40px;
-
-        height: 40px;
         letter-spacing: 1px;
     }
     .product_info .block_head .title {
@@ -1085,7 +1082,7 @@
 
     .main_slider {
         margin-bottom: 0px;
-        margin-top: -60px;
+        margin-top: 0px;
     }
     .product_info .buy .price{
         flex-wrap: wrap;
@@ -1182,9 +1179,6 @@
         margin-bottom: 15px;
         height: 53px;
     }
-    .order_block .form .submit_btn {
-        height: 53px;
-    }
     .order_block .form {
         padding: 15px;
     }
@@ -1197,6 +1191,9 @@
     }
     .block {
         padding: 30px 0;
+    }
+    .main_slider2.block {
+        padding: 50px 0 60px;
     }
     .big_boss_quote .info {
         padding: 0;
