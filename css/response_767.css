@@ -1193,6 +1193,10 @@
         font-size: 14px;
     }
 
+    .product_info-form {
+        max-width: 100%;
+    }
+
     .gallery2 .flex  {
         margin-left: -20px;
     }
@@ -1564,4 +1568,17 @@
     }
 
 }
+
+
+@media (max-width: 630px) {
+    .product_info .buy {
+        flex-wrap: wrap;
+    }    
+     .buy_btns {
+        margin-left: auto;
+        width: 100%;
+        align-items: center;
+    }
+}
+
 

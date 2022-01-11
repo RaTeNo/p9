@@ -895,11 +895,7 @@
 
         /*новый продукт*/
 
-    .product_info .cart_link .count
-    {
-        position: relative;
-        top: -15px;
-    }
+
 
     .product_info .data
     {
@@ -932,14 +928,13 @@
     {
         font-size: 21px;
         line-height: 21px;
-
-        display: flex;
-
         width: 100%;
         margin-bottom: 10px;
-
         justify-content: space-between;
         align-items: center;
+    }
+    .product_info .buy .price .val {
+        font-size: 30px;
     }
 
     .product_info .buy .back_link
@@ -947,18 +942,13 @@
         margin: 0;
     }
 
-    .product_info .buy .buy_link,
-    .product_info .buy .order_link
-    {
-        width: 100%;
-    }
 
     .product_info .buy .btn
     {
         margin: 0;
         margin-left: 15px;
         flex-grow: 1;
-        width: auto;
+        width: 100%;
     }
 
     .product_info .head{

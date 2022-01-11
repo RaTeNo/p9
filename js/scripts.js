@@ -22,6 +22,7 @@ $(function(){
 	 var owl = $('.main_slider2 .slider').owlCarousel({
 		items: 1,
 		margin: 0,
+		adaptiveHeight: true,
 		nav: true,
 		dots: true,
 	navText: [
@@ -57,6 +58,7 @@ $(function(){
 	var owl12 =$('.main_slider3 .slider').owlCarousel({
 		items: 1,
 		margin: 0,
+		adaptiveHeight: true,
 		nav: false,
 		dots: false,		
 		loop: true,
