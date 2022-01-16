@@ -1396,7 +1396,7 @@ header .menu .flexMenu-viewMore > a span:after
 }
 
 header .menu .flexMenu-viewMore .item > a span:after{
-    display: none;
+    /* display: none; */
 }
 
 header .menu .flexMenu-viewMore:hover > a span:after
@@ -1457,7 +1457,7 @@ header .menu .flexMenu-popup .item a
     align-items: center;
     align-content: center;
     flex-wrap: nowrap;
-        text-transform: uppercase;
+    text-transform: uppercase;
     letter-spacing: 2.7px;
 }
 
@@ -1478,7 +1478,6 @@ header .menu .flexMenu-popup .item a:hover,
 header .menu .flexMenu-popup .item a.active
 {
     color: #fff;
-
     background:  var(--main_color2);
 }
 
@@ -3351,7 +3350,6 @@ aside > *:last-child
 .prices .item:nth-child(3n+2)
 {
     background: var(--main_color2);
-    padding: 96px 41px 101px;
 }
 .prices .item .name
 {
@@ -5402,7 +5400,7 @@ button:disabled
     color: var(--main_color4);
     font-family: var(--font_family);
     font-size: 14px;
-    line-height: 40px;
+    line-height: 36px;
     display: inline-block;
     min-width: 155px;
     height: 40px;
@@ -6516,6 +6514,7 @@ button:disabled
     text-align: start;
     padding: 0;
     display: block;
+    min-height: 25px;
 }
 
 .image_tips .image .info .close
