@@ -283,7 +283,7 @@
     }
 
     header .menu .sub_menu a.sub_link span:after {
-        display: none;
+        
     }
     header .menu .item > a span {
         padding-right: 0px;
@@ -1663,7 +1663,7 @@
 
     header .menu .item a.touch_link + .sub_menu.show a {
         padding-left:40px;   
-        background: #183632;     
+       background: rgba(0, 0, 0, 0.32);
     }
     header .menu .flexMenu-popup .item > a.touch_link + .sub_menu.show {
         background: rgba(0, 0, 0, 0.32);
@@ -2010,4 +2010,7 @@
         right: 44px;
     }
 
+    header .menu .flexMenu-popup .item a{
+        font-size: 14px;
+    }
 }

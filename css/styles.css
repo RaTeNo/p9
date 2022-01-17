@@ -1348,14 +1348,16 @@ header .menu .flexMenu-viewMore
 
 header .menu .flexMenu-viewMore > a
 {
-       color: #000;
+    font-weight: 700;
     font-size: 12px;
-    font-weight: 300;
-    line-height: 17px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
 
     display: flex;
 
-    height: 40px;
+    height: 52px;
     padding: 15px 40px;
 
     transition: background .2s linear;
@@ -1366,7 +1368,6 @@ header .menu .flexMenu-viewMore > a
     align-items: center;
     align-content: center;
     flex-wrap: nowrap;
-    letter-spacing: 2.7px;
 }
 
 header .menu .flexMenu-viewMore > a span
@@ -1391,8 +1392,8 @@ header .menu .flexMenu-viewMore > a span:after
     content: '';
     transform: rotate(-45deg);
 
-    border-bottom: 2px solid #000;
-    border-left: 2px solid #000;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
 }
 
 header .menu .flexMenu-viewMore .item > a span:after{
@@ -1409,7 +1410,7 @@ header .menu .flexMenu-viewMore.active > a
 {
     color: #fff;
 
-    background: var(--main_color2);
+    background: rgba(0, 0, 0, .28);
 }
 
 header .menu .flexMenu-popup
@@ -1422,8 +1423,8 @@ header .menu .flexMenu-popup
     min-width: 100%;
     padding: 0;
 
-    background: var(--main_color2);
-    border:1px solid var(--main_color2);
+    background: var(--main_color4);
+    border:none;
 }
 
 header .menu .flexMenu-popup > *
@@ -1440,25 +1441,20 @@ header .menu .flexMenu-popup .item
 
 header .menu .flexMenu-popup .item a
 {
-    color: #fff;
-    font-size: 18px;
-    line-height: 29px;
+	color: #fff;
+    font-size: 12px;
     font-weight: normal;
+    line-height: 17px;
     display: flex;
-    height: 56px;
-    padding: 15px 40px;
+    height: 40px;
     transition: background .2s linear;
     white-space: nowrap;
     text-decoration: none;
-    text-transform: none;
-    border-radius: 0;
-    background: var(--main_color2);
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: nowrap;
     text-transform: uppercase;
-    letter-spacing: 2.7px;
+    border-radius: 0;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid rgba(0, 0, 0, .18);
+    justify-content: flex-start;
 }
 
 header .menu .flexMenu-popup .item:first-child a
@@ -1478,7 +1474,7 @@ header .menu .flexMenu-popup .item a:hover,
 header .menu .flexMenu-popup .item a.active
 {
     color: #fff;
-    background:  var(--main_color2);
+    background: rgba(0, 0, 0, .28);
 }
 
 header .menu .flexMenu-popup .sub_menu,
@@ -4502,7 +4498,8 @@ aside > *:last-child
     position: absolute;
     top: 0;
     left: 0;
-
+    height: 62px;
+    width: 62px;
     display: block;
 }
 
@@ -5948,7 +5945,7 @@ button:disabled
     position: absolute;
     z-index: 9;
     top: 0;
-    right: 20px;
+    right: 0px;
     display: flex;
     padding-top: 11px;
     text-align: right;
@@ -8346,7 +8343,6 @@ header .menu .item .item:hover .sub_menu{
 header .menu .sub_menu a.sub_link span:after {
     position: absolute;
     top: 50%;
-    right: -90%;
     display: block;
     width: 5px;
     height: 5px;
@@ -8862,8 +8858,6 @@ aside .cats label:after{
 .main_slider .slide .info {
     padding-right: 140px;
 }
-
-
 
 
 
