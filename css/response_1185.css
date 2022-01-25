@@ -216,6 +216,12 @@
         width: 375px;
     }
 
+    .cart_info .product .video_link {
+        flex-direction: column;
+    }
+    .cart_info .product .video_link .product_delete {
+        margin-left: 0;
+    }
 
 
     .checkout_success

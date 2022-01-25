@@ -5073,9 +5073,9 @@ aside > *:last-child
 }
 .cart_info .product .product_delete
 {
-    margin-right: 20px;
-
+    margin-left: 20px;
     cursor: pointer;
+    color: rgb(216, 22, 22);
 }
 .cart_info .product + .product
 {
@@ -5145,6 +5145,7 @@ aside > *:last-child
     font-size: var(--font_size);
     line-height: 26px;
     margin-top: 3px;
+    display: flex;
 }
 
 .cart_info .product .video_link a
