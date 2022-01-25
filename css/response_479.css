@@ -787,7 +787,6 @@
         font-size: 16px;
         font-weight: bold;
         line-height: 19px;
-        margin-top:20px;
     }
     .contacts_info .info .icon
     {
@@ -795,10 +794,19 @@
         height: 50px;
         padding: 10px;
     }
-
+    .contacts_info .info .icon img {
+        width: 30px;
+        height: 30px;
+    }
     .contacts_info .info .val a
     {
         background-size: 17px !important;
+    }
+    .contacts_info .info .flex {
+        padding: 10px;
+    }
+    .contacts_info .info .item {
+        padding: 14px;
     }
 
 
@@ -1061,9 +1069,7 @@
         font-size:20px;
         line-height: 24px;
     }
-    .contacts_info .info .flex > *{
-        margin-bottom:10px;
-    }
+
 
     .articles .article .inner{
         padding: 20px;

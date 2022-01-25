@@ -846,15 +846,21 @@
 
     .contacts_info .info .flex
     {
+        padding: 30px;
     }
     .contacts_info .info .flex > *
     {
         width: calc(50%);
+        flex-direction: column;
     }
     .contacts_info .info .icon
     {
         top: 20px;
         left: 20px;
+    }
+    .contacts_info .info .description {
+        margin-top: 18px;
+        margin-left: 0;
     }
 
     .news .flex
