@@ -586,6 +586,27 @@
         line-height: 24px;
     }
 
+    .contacts_info .info .val a.ic_whatsapp
+    {
+        padding-left: 23px;
+    }
+    .contacts_info .info .val a.ic_viber
+    {
+        padding-left: 23px;
+    }
+    .contacts_info .info .val a.ic_vk
+    {
+        padding-left: 23px;
+    }
+    .contacts_info .info .val a.ic_insta
+    {
+        padding-left: 23px;
+    }
+    .contacts_info .info .description {
+        margin-left: 15px;
+    }
+    
+
 
     .contacts_block .map
     {

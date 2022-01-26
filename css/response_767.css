@@ -818,6 +818,9 @@
         font-size: 19px;
         line-height: 25px;
     }
+    .contacts_info .info .flex {
+        padding: 20px;
+    }
 
 
     .contacts_block .map
