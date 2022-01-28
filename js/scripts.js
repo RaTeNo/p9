@@ -114,10 +114,10 @@ $(function(){
 		}	
 	});
 
-	$(".next").click(function(){
+	$(".reviews .next").click(function(){
 		owl2.trigger("next.owl.carousel");
 	});
-	$(".prev").click(function(){
+	$(".reviews .prev").click(function(){
 		owl2.trigger("prev.owl.carousel");
 	});
 
@@ -156,10 +156,10 @@ $(function(){
 		}		
 	})
 
-	$(".next").click(function(){
+	$(".services .next").click(function(){
 		owl3.trigger("next.owl.carousel");
 	});
-	$(".prev").click(function(){
+	$(".services .prev").click(function(){
 		owl3.trigger("prev.owl.carousel");
 	});
 
@@ -195,10 +195,10 @@ $(function(){
 		}		
 	})
 
-	$(".next").click(function(){
+	$(".works .next").click(function(){
 		owl4.trigger("next.owl.carousel");
 	});
-	$(".prev").click(function(){
+	$(".works .prev").click(function(){
 		owl4.trigger("prev.owl.carousel");
 	});
 
@@ -233,10 +233,10 @@ $(function(){
 		
 	})
 
-	$(".next").click(function(){
+	$(".stocks .next").click(function(){
 		owl5.trigger("next.owl.carousel");
 	});
-	$(".prev").click(function(){
+	$(".stocks .prev").click(function(){
 		owl5.trigger("prev.owl.carousel");
 	});
 
@@ -270,10 +270,10 @@ $(function(){
 		},		
 	})
 
-	$(".next").click(function(){
+	$(".video_reviews .next").click(function(){
 		owl6.trigger("next.owl.carousel");
 	});
-	$(".prev").click(function(){
+	$(" .video_reviews.prev").click(function(){
 		owl6.trigger("prev.owl.carousel");
 	});
 
@@ -312,10 +312,10 @@ $(function(){
 		}
 	})
 
-	$(".next").click(function(){
+	$(".documents .next").click(function(){
 		owl7.trigger("next.owl.carousel");
 	});
-	$(".prev").click(function(){
+	$(".documents .prev").click(function(){
 		owl7.trigger("prev.owl.carousel");
 	});
 
@@ -351,10 +351,10 @@ $(function(){
 		
 	})
 
-	$(".next").click(function(){
+	$(".team .next").click(function(){
 		owl8.trigger("next.owl.carousel");
 	});
-	$(".prev").click(function(){
+	$(".team .prev").click(function(){
 		owl8.trigger("prev.owl.carousel");
 	});
 
@@ -389,10 +389,10 @@ $(function(){
 		
 	})
 
-	$(".next").click(function(){
+	$(".vacancies .next").click(function(){
 		owl9.trigger("next.owl.carousel");
 	});
-	$(".prev").click(function(){
+	$(".vacancies .prev").click(function(){
 		owl9.trigger("prev.owl.carousel");
 	});
 
