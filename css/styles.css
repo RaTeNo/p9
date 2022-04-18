@@ -1756,7 +1756,7 @@ aside .block:nth-child(2n) {
 
 aside .block .title
 {
-    color: var(--main_color4);
+    color: #fff;
     position: relative;
     display: flex;
     padding: 19px 21px 16px;
@@ -2551,7 +2551,7 @@ aside > *:last-child
 
 .main_slider2 .info .title
 {
-    color: var(--main_color4);
+    color: #fff;
     position: relative;
     max-width: 100%;
     font-family: var(--font_family);
@@ -2613,7 +2613,7 @@ aside > *:last-child
 .main_slider3 .slide .info {
     text-align: start;
     padding: 79px 79px 85px;
-    background: rgb(14%, 31%, 29%, .9);
+    background: var(--main_color2);
     max-width: 657px;
     width: 100%;
     z-index: 1;
@@ -3396,7 +3396,7 @@ aside > *:last-child
 }
 .prices .item:nth-child(3n+2) .price
 {
-    color: var(--main_color4);
+    color: #fff;
 }
 .prices .item:nth-child(3n+2) .desc
 {
@@ -7924,7 +7924,7 @@ footer .creator img {
     display: flex;
     width: 43px;
     height: 43px;
-    background: #DCB251;
+    background: var(--main_color4);
     border-radius: 1.56364px;   
     cursor: pointer;
     justify-content: center;
