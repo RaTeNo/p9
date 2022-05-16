@@ -8639,7 +8639,6 @@ aside .block .data.range{
 
 
 .specifications {
-    background: var(--bg);
     padding-bottom: 25px;
 }
 .specifications .block_head {
@@ -8693,6 +8692,7 @@ aside .block .data.range{
     background: var(--bg2);
     margin-top: 0px;
     padding-bottom: 96px;
+    padding-top:30px;
 }
 .products.related .block_head {
     margin-bottom: 31px;
