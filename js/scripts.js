@@ -791,9 +791,13 @@ $(function(){
 		//e.preventDefault()
 		let color1 =  $(".color1").val();
     	let color2 =  $(".color2").val();
+    	let color3 =  $(".color3").val();
+    	let color4 =  $(".color4").val();
 
 		localStorage.setItem('color1', color1);
 		localStorage.setItem('color2', color2);
+		localStorage.setItem('color3', color3);
+		localStorage.setItem('color4', color4);
 
 		window.location.reload(true)
 	});
@@ -802,6 +806,8 @@ $(function(){
 		//e.preventDefault()
 		localStorage.removeItem('color1');
 		localStorage.removeItem('color2');
+		localStorage.removeItem('color3');
+		localStorage.removeItem('color4');
 		window.location.reload(true)
 	});
 
@@ -809,23 +815,28 @@ $(function(){
 
     let color1 = localStorage.getItem('color1');
     let color2 = localStorage.getItem('color2');
+    let color3 = localStorage.getItem('color3');
+    let color4 = localStorage.getItem('color4');
+
 
     if(color1!=null)
     {
 	    $(".color1").val(color1);
 	    $(".color2").val(color2);
+	    $(".color3").val(color3);
+	    $(".color4").val(color4);
 
 	    var root = document.querySelector(':root');
 	    root.style.setProperty('--main_color1', color1);
 	    root.style.setProperty('--main_color2', color2);
-	    root.style.setProperty('--main_color3', color1);
-	    root.style.setProperty('--main_color4', color1);
+	    root.style.setProperty('--main_color3', color3);
+	    root.style.setProperty('--main_color4', color4);
 
-	    let rgba = hexDec(color1);
+	    //let rgba = hexDec(color1);
 	    
 	    //root.style.setProperty('--box-shadow-color', "rgba("+rgba+",0.35)");
 
-	    let rgba_opacity = hexDec(color2);
+	    //let rgba_opacity = hexDec(color2);
 
 	    //root.style.setProperty('--main_color_opacity', "rgba("+rgba_opacity+",0.03)");	    
     }
