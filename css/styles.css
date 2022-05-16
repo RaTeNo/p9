@@ -197,7 +197,7 @@ body.lock
 }
 .content_flex.block {
     padding: 50px 0 50px;
-    background: var(--main_color3);
+   
 }
 .content_flex .content
 {
@@ -5425,7 +5425,7 @@ button:disabled
 
 .product_info {
     padding: 56px 0 0 0;
-    background: var(--main_color3);
+  
 }
 .product_info .cont
 {
@@ -5875,7 +5875,6 @@ button:disabled
 
 .article_info {
     padding: 60px 0 90px;
-    background: var(--main_color3);
 }
 .article_info .head
 {
@@ -7121,7 +7120,6 @@ button:disabled
 
 .news {
     padding: 50px 0 90px;
-    background: var(--main_color3);
 }
 .news .article
 {
