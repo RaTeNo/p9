@@ -5063,7 +5063,6 @@ aside > *:last-child
 
 .cart_info {
     padding: 50px 0 50px;
-    background: var(--main_color3);
 }
 .cart_info .product
 {
@@ -5282,7 +5281,6 @@ aside > *:last-child
 
 .checkout_info {
     padding: 50px 0 50px;
-    background: var(--main_color3);
 }
 .checkout_info .cont
 {
@@ -6980,7 +6978,7 @@ button:disabled
     align-items: stretch;
     align-content: stretch;
     background: #FFFFFF;
-    box-shadow: 13px 15px 31px #e1d7c4;
+    box-shadow: 13px 15px 31px var(--box-shadow-color);
     padding: 46px 75px 57px;
     display: flex;
 }
@@ -7625,7 +7623,7 @@ footer .creator img {
 }
 .products_sort b
 {
-    color: #9A8A6A;
+    color: #000;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
@@ -7651,7 +7649,7 @@ footer .creator img {
     padding: 0 15px;
 
     cursor: pointer;
-    color: #9A8A6A;
+    color: #000;
 }
 
 .products_sort
@@ -8009,7 +8007,6 @@ aside .submit .reset i:after
 
 .cart_empty
 {   
-    background: var(--main_color3);
 }
 .cart_empty .cont {
     width: 430px;
@@ -8233,7 +8230,6 @@ header.fixed .info {
 
 /*новый блок*/
 .products_category {
-    background:var(--main_color3);
     padding: 50px 0 140px;
 }
 .products_category .cont {
