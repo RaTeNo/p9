@@ -4821,7 +4821,7 @@ aside > *:last-child
 
 
 .products {
-    background: var(--main_color3);
+    
 }
 .products .block_head {
     flex-direction: column;
@@ -8640,7 +8640,7 @@ aside .block .data.range{
 
 
 .specifications {
-    background: var(--main_color3);
+    background: var(--bg);
     padding-bottom: 25px;
 }
 .specifications .block_head {
@@ -8691,7 +8691,7 @@ aside .block .data.range{
 }
 
 .products.related {
-    background: var(--main_color3);
+    background: var(--bg2);
     margin-top: 0px;
     padding-bottom: 96px;
 }
