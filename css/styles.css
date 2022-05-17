@@ -3833,7 +3833,7 @@ aside > *:last-child
     color: #fff;
 }
 .form input[type=checkbox] + label {
-    color: var(--main_color4);
+    color: #fff;
 }
 
 
