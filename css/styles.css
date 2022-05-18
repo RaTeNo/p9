@@ -472,6 +472,9 @@ body.lock
     display: none;
 }
 
+.checkout_info .form input[type=checkbox] + label, .director_letter .form input[type=checkbox] + label{
+    color: var(--text_color);
+}
 .form input[type=checkbox] + label
 {
     font-weight: normal;
@@ -3839,6 +3842,7 @@ aside > *:last-child
 
 
 
+
 .contacts_block .cont
 {
     position: relative;
@@ -4089,6 +4093,16 @@ aside > *:last-child
 {
     color: #fff;
 }
+
+.stocks .stock:hover .link-more
+{
+    color: #fff;
+}
+.stocks .stock:hover .link-more svg *
+{
+    fill: #fff;
+}
+
 
 
 
@@ -5005,6 +5019,10 @@ aside > *:last-child
 .products .product:hover .info
 {
     background: var(--main_color2);
+}
+.products .product:hover .price
+{
+    color: #fff;
 }
 
 .products .link

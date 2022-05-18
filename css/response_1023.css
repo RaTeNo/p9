@@ -759,6 +759,7 @@
     }
     .button-down {
         bottom: -25px;
+        z-index: 100;
     }
 
 
@@ -1987,6 +1988,7 @@
     .first_section.block {
         margin-top: 0;
         padding: 0;
+        padding-bottom: 30px;
     }
     .contacts_block .map:after {
         height: 291px;
