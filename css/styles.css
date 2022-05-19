@@ -472,7 +472,9 @@ body.lock
     display: none;
 }
 
-.checkout_info .form input[type=checkbox] + label, .director_letter .form input[type=checkbox] + label{
+.checkout_info .form input[type=checkbox] + label, .director_letter .form input[type=checkbox] + label
+, .quiz_poll .form input[type=checkbox] + label
+, .upload  .form input[type=checkbox] + label{
     color: var(--text_color);
 }
 .form input[type=checkbox] + label
