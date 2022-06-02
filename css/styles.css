@@ -2521,7 +2521,7 @@ aside > *:last-child
     font-size: 49px;
     line-height: 46px;
     letter-spacing: -2.16512px;
-    color: var(--main_color4);
+    color: #fff;
 }
 .main_slider .slide .desc
 {
